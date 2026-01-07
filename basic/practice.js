@@ -3,5 +3,7 @@
 //output : class js node to welcome
 
 let str = "welcome to node js class";
-let reversedStr = str.split(" ").reverse().join(" ");
-console.log(reversedStr);
+let str1 = str.split(" ");
+let str2=str1.reverse()
+let result=str2.join(" ")
+console.log(result);
