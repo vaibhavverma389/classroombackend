@@ -13,4 +13,5 @@ b[0]=5;
 for(let i=0;i<a;i++){
     b[i+1]=arr[i];
 }
-console.log(b); 
+console.log(arr);
+console.log(b);
