@@ -1,0 +1,13 @@
+Data type in node js
+Number --- Interger, Float, Double
+Character/String
+Boolean --- True/False
+				&& --And
+				|| -- OR				
+		if(T && T) -- True								if(T || T) -- True
+		if(T && F) -- False								if(T || T) -- True
+		if(F && T) -- False								if(F || T) -- True
+		if(F && F) -- False								if(T || T) -- True		
+		Undefined eg: let add;
+		Null      eg: let a = null;
+		object 

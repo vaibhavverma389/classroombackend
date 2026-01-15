@@ -4,7 +4,7 @@
 //  arr=[10,20,30,40,50]
 // add element on th front 5
 //output :[5,10,20,30,40,50]
-// to print console.log()
+// to print console.log()   
 
 let arr=[10,20,30,40,50];
 let a=arr.length;
