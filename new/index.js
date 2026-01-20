@@ -9,24 +9,25 @@ const server = createServer((req, res) => {
     if(req.url==="/")
     {
         res.setHeader('Content-Type','text/plain');
-        res.end("This is my main page")
+        res.write("This is my main page")
     }
     else if(req.url === "/about")
     {
         res.setHeader('Content-Type','text/plain');
-        res.end("This is my about page")
+        res.write("This is my about page")
     }
     else if(req.url === "/contact")
     {
         res.setHeader('Content-Type','text/plain');
-        res.end("This is my contact page")
+        res.write("This is my contact page")
 
     }
     else
     {
         res.setHeader('Content-Type','text/plain');
-        res.end("this is my 404 page")
+        res.write("this is my 404 page")
     }
+    res.end();
 });
 
 server.listen(port, hostname, ()=>
