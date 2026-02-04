@@ -7,7 +7,7 @@ const inStream = new Readable({
 })
 
 inStream.push("Welcome to File stream sassion\n");
-inStream.push("Everyone need to contribute inside the class");
+inStream.push("Everyone need to contribute inside the class\n");
 
 inStream.push(null);
 
