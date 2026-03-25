@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <header class="head-nav">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="link"><a href="/home" class="link-a">Home</a></li>
+                    <li class="link"><a href="/flight" class="link-a">Flights</a></li>
+                    <li class="link"><a href="/bookings" class="link-a">Bookings</a></li>
+                    <li class="link"><a href="/login" class="link-a">Profile</a></li>
+                    <li class="link"><a href="/register" class="link-a">Register</a></li>
+                    <li class="link"><a href="/logout" class="link-a">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+    <h3>Login</h3>
+
+
+    <form action="/login" method="Post">
+        <input 
+        type="text" name="username" 
+        placeholder="Username" required> <br><br>
+        <input type="password" name="password"
+        placeholder="Password" required> <br><br>
+        <button type="submit">Login</button>
+    </form>
+    <p>New User? <a href="/register">Sign Up</a></p>
+
+    
+</body>
+</html>
